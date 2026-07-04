@@ -42,9 +42,14 @@ const familyLetters = {
     photoSrc: "./images/angelo.jpg",
     initials: "Angelo",
     message: [
-      "Will send through private message.",
-      "Love, Angelo"
-    ]
+  "Happy 27th Birthday, Maia!",
+  "Today is a beautiful reminder of how far you've come and how much more life still has in store for you. Twenty-seven years old is a milestone—a breakthrough for many of the greats who came before us. It is a chapter where dreams become clearer, lessons grow wiser, and every experience shapes the melody of who you are becoming—where everything begins to fall into place.",
+  "John Lennon once said, \"Life is what happens to you while you're busy making other plans.\" Much like music, life rarely follows the sheet exactly as expected. It surprises us with unexpected tunes, quiet pauses, melodic shifts, and powerful crescendos. Yet those moments are precisely what make every song a unique experience of its own. In the same way, every twist and turn gives your life its own timeless story.",
+  "Embrace each note, whether blissful or arduous, because together they compose a masterpiece that is uniquely yours.",
+  "May this new year of your life be filled with meaningful moments, genuine laughter, unwavering courage, and people who make your heart feel safe and secure. Keep chasing your passions, speaking your truth, and dancing through both La Niña and El Niño with growing confidence and grace.",
+  "Happy Birthday, Maia. May your 27th year become your most beautiful symphony yet!",
+  "Love,Angelo"
+]
   },
   gab: {
     title: "From Gab",
