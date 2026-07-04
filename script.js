@@ -69,7 +69,10 @@ const familyLetters = {
     photoSrc: "./images/tala.jpg",
     initials: "Tala",
     message: [
-      "Will send through private message.",
+      "Happy Birthday, Ate Maia! 💖",
+      "Grateful that you have your own life set up for yourself. I'm inspired by the way you live and how diligent you are. I'm so grateful that you are my older sister, and that we get to be part of your successes.",
+      "I love you always as I strive to be a better sibling. <33 Know that we always include you in our life plans too, and we're going to achieve our sisters' travel goals together.",
+      "Enjoy your day! I wish you more delicious food, amazing friends, and countless blessings. Happy Birthday! 🥳",
       "Love, Tala"
     ]
   },
