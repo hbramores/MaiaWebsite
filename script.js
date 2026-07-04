@@ -23,7 +23,12 @@ const familyLetters = {
     photoSrc: "./images/papa.png",
     initials: "Papa",
     message: [
-      "Will send through private message.",
+      "Happy Birthday, Bowgz! ❤️",
+      "May you have many, many more birthdays, and may the Good Lord continue to bless you, guide you, protect you, and keep you healthy always.",
+      "Love you so much. Thank you for everything you've done for our family. Your kindness, generosity, and love never go unnoticed, and I appreciate you more than words can say.",
+      "I only wish these were better times—more swimming, more dinners, more movies, more videoke, and more wonderful memories together. Sorry at hindi natupad ang mga promises namin, pero babawi talaga ako sa'yo.",
+      "I'm so proud of the kind, hardworking daughter you've become. I truly believe all your dreams will come true because you are diligent, patient, and have such a good heart. You are such an inspiration. 🙂",
+      "Enjoy your special day, Bowgz. You deserve all the love, joy, and blessings today and always. Happy Birthday! ❤️🎉🌻🎂🥳🍟🍿",
       "Love, Papa"
     ]
   },
