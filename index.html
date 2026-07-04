@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Ate Maia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="intro-screen" id="introScreen">
+    <div class="intro-content">
+      <p>A magical door is glowing for</p>
+      <h1>Ate Maia</h1>
+    </div>
+  </div>
+
+  <nav class="floating-nav" aria-label="Page sections">
+    <a href="#hero">Home</a>
+    <a href="#letters">Letters</a>
+    <a href="#memories">Memories</a>
+    <a href="#video">Video</a>
+    <a href="#song">Song</a>
+    <a href="#games">Games</a>
+  </nav>
+
+  <section class="hero-section" id="hero">
+    <div class="casita-window window-one"></div>
+    <div class="casita-window window-two"></div>
+    <div class="butterfly butterfly-one"></div>
+    <div class="butterfly butterfly-two"></div>
+    <div class="butterfly butterfly-three"></div>
+
+    <div class="hero-content">
+      <p class="section-label">Welcome Mirabel, este Ate Maia!</p>
+      <div class="mirabel-frame">
+        <div class="portrait-placeholder">
+          <img src="./images/main image.jpg" alt="Ate Maia">
+        </div>
+      </div>
+      <h1>Happy Birthday <span>Ate Maia</span></h1>
+      <p class="hero-copy">
+        Today, the whole casita opens its doors for the sister who carries love,
+        kindness, and her own bright magic into our family.
+      </p>
+      <button class="primary-btn" id="startBtn">Open Your Birthday Door</button>
+    </div>
+  </section>
+
+  <section class="letters-section" id="letters">
+    <div class="section-heading">
+      <p class="section-label">Messages From Home</p>
+      <h2>Family Letters</h2>
+      <p>Eight little doors. Eight warm messages. Click a card to open it.</p>
+    </div>
+
+    <div class="letter-grid">
+      <button class="letter-card" data-letter="papa">
+        <span class="door-arch"></span>
+        <span class="door-face"><img src="./images/papa.png" alt="Papa"></span>
+        <strong>Papa</strong>
+        <small>Open letter</small>
+      </button>
+      <button class="letter-card" data-letter="mama">
+        <span class="door-arch"></span>
+        <span class="door-face"><img src="./images/mama.jpg" alt="Mama"></span>
+        <strong>Mama</strong>
+        <small>Open letter</small>
+      </button>
+      <button class="letter-card" data-letter="angelo">
+        <span class="door-arch"></span>
+        <span class="door-face"><img src="./images/angelo.jpg" alt="Angelo"></span>
+        <strong>Angelo</strong>
+        <small>Open letter</small>
+      </button>
+      <button class="letter-card" data-letter="gab">
+        <span class="door-arch"></span>
+        <span class="door-face"><img src="./images/gab.jpg" alt="Gab"></span>
+        <strong>Gab</strong>
+        <small>Open letter</small>
+      </button>
+      <button class="letter-card" data-letter="tala">
+        <span class="door-arch"></span>
+        <span class="door-face"><img src="./images/tala.jpg" alt="Tala"></span>
+        <strong>Tala</strong>
+        <small>Open letter</small>
+      </button>
+      <button class="letter-card" data-letter="hana">
+        <span class="door-arch"></span>
+        <span class="door-face"><img src="./images/hana.jpg" alt="Hana"></span>
+        <strong>Hana</strong>
+        <small>Open letter</small>
+      </button>
+      <button class="letter-card" data-letter="joey">
+        <span class="door-arch"></span>
+        <span class="door-face"><img src="./images/joey.jpg" alt="Joey"></span>
+        <strong>Joey</strong>
+        <small>Open letter</small>
+      </button>
+      <button class="letter-card" data-letter="rain">
+        <span class="door-arch"></span>
+        <span class="door-face"><img src="./images/rain.jpg" alt="Rain"></span>
+        <strong>Rain</strong>
+        <small>Open letter</small>
+      </button>
+    </div>
+  </section>
+
+  <div class="letter-modal" id="letterModal" aria-hidden="true">
+    <article class="letter-paper" role="dialog" aria-modal="true" aria-labelledby="letterTitle">
+      <button class="close-btn" id="closeLetter" aria-label="Close letter">x</button>
+      <p class="section-label">A Letter For Maia</p>
+      <h2 id="letterTitle"></h2>
+      <div id="letterMessage"></div>
+    </article>
+  </div>
+
+  <section class="memory-section" id="memories">
+    <div class="section-heading">
+      <p class="section-label">Memory Lane</p>
+      <h2>Photos of you</h2>
+      <p>A collage of birthday memories.</p>
+    </div>
+
+    <div class="memory-collage">
+      <img class="wide" src="./images/1.jpg" alt="Memory 1">
+      <img src="./images/2.jpg" alt="Memory 2">
+      <img class="tall" src="./images/3.jpg" alt="Memory 3">
+      <img src="./images/4.jpg" alt="Memory 4">
+      <img src="./images/5.png" alt="Memory 5">
+      <img class="wide" src="./images/6.jpg" alt="Memory 6">
+      <img src="./images/7.png" alt="Memory 7">
+      <img src="./images/8.jpg" alt="Memory 8">
+      <img class="tall" src="./images/9.jpg" alt="Memory 9">
+      <img src="./images/10.jpg" alt="Memory 10">
+      <img src="./images/11.jpg" alt="Memory 11">
+      <img class="wide" src="./images/12.jpg" alt="Memory 12">
+      <img src="./images/13.jpg" alt="Memory 13">
+      <img src="./images/14.jpg" alt="Memory 14">
+      <img class="tall" src="./images/15.jpg" alt="Memory 15">
+      <img src="./images/17.jpg" alt="Memory 17">
+      <img class="wide" src="./images/18.jpg" alt="Memory 18">
+      <img src="./images/19.jpg" alt="Memory 19">
+      <img src="./images/20.jpg" alt="Memory 20">
+      <img class="tall" src="./images/21.jpg" alt="Memory 21">
+      <img src="./images/22.jpg" alt="Memory 22">
+      <img src="./images/23.jpg" alt="Memory 23">
+      <img class="wide" src="./images/24.jpg" alt="Memory 24">
+      <img src="./images/25.jpg" alt="Memory 25">
+      <img class="tall" src="./images/26.jpg" alt="Memory 26">
+      <img src="./images/27.jpg" alt="Memory 27">
+      <img src="./images/28.jpg" alt="Memory 28">
+      <img class="wide" src="./images/29.jpg" alt="Memory 29">
+      <img src="./images/30.jpg" alt="Memory 30">
+      <img src="./images/31.jpg" alt="Memory 31">
+      <img class="tall" src="./images/32.jpg" alt="Memory 32">
+      <img src="./images/33.jpg" alt="Memory 33">
+      <img src="./images/34.jpg" alt="Memory 34">
+      <img class="wide" src="./images/35.jpg" alt="Memory 35">
+      <img src="./images/36.jpg" alt="Memory 36">
+    </div>
+  </section>
+
+  <section class="video-section" id="video">
+    <div class="section-heading">
+      <p class="section-label">Family Birthday Greeting</p>
+      <h2>Video Message</h2>
+      <p>The family greeting video for you.</p>
+    </div>
+
+    <div class="video-frame">
+      <iframe
+        class="drive-video"
+        src="https://drive.google.com/file/d/17_wIMPkOE_wlmBfIZcqy36vf2KowNxRE/preview"
+        title="Family birthday video message"
+        allow="autoplay"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section class="song-section" id="song">
+    <div class="section-heading">
+      <p class="section-label">A Song From Mama</p>
+      <h2>Song Made by Mama</h2>
+      <p>This song is dedicated for you</p>
+    </div>
+
+    <div class="song-frame">
+      <iframe
+        class="drive-song"
+        src="https://drive.google.com/file/d/1ussuWacdAfV-qK1LSs49pahgRn5L4gJk/preview"
+        title="Mama's birthday song"
+        allow="autoplay"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section class="testimony-section" id="testimonies">
+    <div class="section-heading">
+      <p class="section-label">How People See Her</p>
+      <h2>Ate Maia Is...</h2>
+      <p>Words from the people who know you.</p>
+    </div>
+
+    <div class="quality-grid">
+      <article class="quality-card">Mauutangan</article>
+      <article class="quality-card">Sweet</article>
+      <article class="quality-card">Lodi</article>
+      <article class="quality-card">Thoughtful</article>
+      <article class="quality-card">Good with words</article>
+      <article class="quality-card">Caring</article>
+      <article class="quality-card">Intelligent</article>
+      <article class="quality-card">Disciplined</article>
+      <article class="quality-card">Goal getter</article>
+      <article class="quality-card">Fair person</article>
+      <article class="quality-card">Have high sense of integrity</article>
+      <article class="quality-card">Kind</article>
+      <article class="quality-card">Generous</article>
+      <article class="quality-card">Loving</article>
+      <article class="quality-card">Quiet</article>
+      <article class="quality-card">Understanding</article>
+    </div>
+  </section>
+
+  <section class="quote-section" id="quotes">
+    <div class="section-heading">
+      <p class="section-label">Words For Her Journey</p>
+      <h2>Wheel Of Quotes</h2>
+      <p>Spin whenever Ate Maia needs a little life quote from her magical room.</p>
+    </div>
+
+    <div class="wheel-panel">
+      <div class="wheel-pointer"></div>
+      <div class="quote-wheel" id="quoteWheel">
+        <span>MAIA</span>
+      </div>
+      <button class="primary-btn" id="spinBtn">Spin Quote</button>
+      <p class="quote-display" id="quoteDisplay">Your quote will appear here.</p>
+    </div>
+  </section>
+
+  <section class="games-section" id="games">
+    <div class="section-heading">
+      <p class="section-label">Mini Magic Games</p>
+      <h2>Open Cards And Puzzle</h2>
+      <p>Small games for a birthday solve both game and unlock a secret.</p>
+    </div>
+
+    <div class="games-layout">
+      <article class="game-box">
+        <h3>Match The Gifts</h3>
+        <div class="match-game" id="matchGame">
+          <button class="game-card" data-symbol="door" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="door" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="candle" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="candle" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="flower" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="flower" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="gift" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="gift" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="star" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="star" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="heart" aria-label="Hidden image card"></button>
+          <button class="game-card" data-symbol="heart" aria-label="Hidden image card"></button>
+        </div>
+        <button class="secondary-btn" id="resetGameBtn">Restart Cards</button>
+      </article>
+
+      <article class="game-box">
+        <h3>Casita Image Puzzle</h3>
+        <p class="puzzle-copy">Slide the picture tiles until the magical door is whole.</p>
+        <div class="puzzle-preview" id="puzzlePreview" aria-label="Completed puzzle preview"></div>
+        <div class="image-puzzle" id="imagePuzzle" aria-label="Sliding image puzzle"></div>
+        <button class="secondary-btn" id="resetPuzzleBtn">Shuffle Puzzle</button>
+        <p class="puzzle-feedback" id="puzzleFeedback"></p>
+        <div class="secret-message" id="secretMessage">
+          Ate Maia, you are the magic that makes ordinary days feel special.
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <div class="gift-modal" id="giftModal" aria-hidden="true">
+    <article class="gift-reveal-card" role="dialog" aria-modal="true" aria-labelledby="giftTitle">
+      <button class="close-btn" id="closeGift" aria-label="Close secret gift">x</button>
+      <p class="section-label">Secret Gift Unlocked</p>
+      <h2 id="giftTitle">Congratulations!</h2>
+      <p>You matched every card and completed the Casita puzzle. You have accessed Ate Maia's secret gift.</p>
+      <img src="./images/secret.jpg" alt="Secret gift for Ate Maia">
+    </article>
+  </div>
+
+  <section class="final-section" id="final">
+    <div class="final-card">
+      <p class="section-label">One More Door</p>
+      <h2>We Love You, Ate Maia</h2>
+      <p>
+        Happy Birthday! May this birthday remind you that you are seen, and deeply loved.
+        Every letter, photo, song, and game on this page was made to celebrate the way you are loved.
+      </p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
