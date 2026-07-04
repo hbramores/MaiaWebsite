@@ -56,8 +56,12 @@ const familyLetters = {
     photoSrc: "./images/gab.jpg",
     initials: "Gab",
     message: [
-      "Will send through private message.",
-      "Love, Gab"
+    "Happy Birthday, Ate Maia! 🎉💖",
+    "Thank you for always being there for us, kahit malayo ka. We truly appreciate all your efforts, sacrifices, and unconditional love.",
+    "We miss you during every occasion here, and it never feels quite complete without you.",
+    "Always take care of yourself, and may God continue to bless and guide you wherever you are.",
+    "We love and miss you so much. Happy Birthday again!",
+    "Love, Gab"
     ]
   },
   tala: {
