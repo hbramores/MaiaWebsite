@@ -496,19 +496,21 @@ section {
 .memory-collage {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  grid-auto-flow: dense;
-  grid-auto-rows: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
   gap: 14px;
 }
 
 .memory-collage img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: clamp(170px, 18vw, 245px);
+  max-width: 100%;
   min-height: 0;
   display: block;
-  object-fit: cover;
+  flex: 0 1 auto;
+  object-fit: contain;
   object-position: center;
   background: rgba(255, 245, 223, 0.2);
   border: 4px solid rgba(255, 245, 223, 0.86);
@@ -523,11 +525,11 @@ section {
 }
 
 .memory-collage .wide {
-  grid-column: span 2;
+  width: auto;
 }
 
 .memory-collage .tall {
-  grid-row: span 2;
+  width: auto;
 }
 
 .video-section {
@@ -1064,13 +1066,16 @@ section {
 }
 
 @media (max-width: 960px) {
-  .letter-grid,
-  .memory-collage {
+  .letter-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .memory-collage {
-    grid-auto-rows: 210px;
+    gap: 12px;
+  }
+
+  .memory-collage img {
+    height: clamp(160px, 28vw, 230px);
   }
 
   .games-layout {
@@ -1098,8 +1103,7 @@ section {
     display: none;
   }
 
-  .letter-grid,
-  .memory-collage {
+  .letter-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1108,15 +1112,18 @@ section {
   }
 
   .memory-collage {
-    grid-auto-rows: 280px;
     width: 100%;
     gap: 12px;
   }
 
+  .memory-collage img {
+    width: 100%;
+    height: auto;
+  }
+
   .memory-collage .wide,
   .memory-collage .tall {
-    grid-column: auto;
-    grid-row: auto;
+    width: 100%;
   }
 
   .letter-card {
